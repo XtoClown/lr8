@@ -1,7 +1,7 @@
 window.onload = function(){
     document.getElementById("botName").innerHTML = "Computer";
     let userName = prompt("Pls enter your name");
-    if(userName == ""){
+    if(userName == null){
         alert("Pls enter your name to continue");
         location.reload();
     }
